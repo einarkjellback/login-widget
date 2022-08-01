@@ -1,0 +1,61 @@
+* {
+    /*color: white;*/
+    font-family: sans-serif;
+}
+
+#login-form {
+    position: center;
+    background-color: #212121;
+    padding: 16px 20px;
+    margin: auto;
+}
+
+#login-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#username #password {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    color: white;
+}
+
+#login-button {
+    background-color: #84216B;
+    padding: 14px 20px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#login-button:hover:not(:active), #login-button:focus:not(:active) {
+    filter: brightness(115%);
+}
+
+/*#show-password {*/
+/*    width: 10%;*/
+/*}*/
+
+.forgot-password {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+@media only screen and (min-width: 600px) {
+    * {
+        color: pink;
+    }
+}
