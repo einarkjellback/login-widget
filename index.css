@@ -1,13 +1,11 @@
 * {
-    /*color: white;*/
     font-family: sans-serif;
 }
 
 #login-form {
-    position: center;
-    background-color: #212121;
-    padding: 16px 20px;
-    margin: auto;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding: 15px 20px;
 }
 
 #login-container {
@@ -15,18 +13,12 @@
     flex-direction: column;
 }
 
-#username #password {
-    width: 100%;
-    margin: 8px 0;
-    padding: 12px 20px;
-    display: inline-block;
-    border: none;
-    box-sizing: border-box;
+#password-container {
+    display: grid;
 }
 
-label {
-    display: block;
-    color: white;
+#password {
+
 }
 
 #login-button {
